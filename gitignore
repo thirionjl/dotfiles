@@ -1,0 +1,15 @@
+lib/
+.idea
+*.iml
+*.log
+target/
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.springBeans
+*.orig
+.checkstyle
+.externalToolBuilders
+.pmd
