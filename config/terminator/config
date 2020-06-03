@@ -1,1 +1,171 @@
-/home/jlinho/Downloads/dotfiles/config/terminator/config
+[global_config]
+  title_hide_sizetext = True
+  title_receive_bg_color = "#73d216"
+  title_inactive_fg_color = "#eeeeec"
+  title_inactive_bg_color = "#3465a4"
+  inactive_color_offset = 0.6666666666666666
+  always_split_with_profile = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1e1f29"
+    cursor_color = "#bbbbbb"
+    foreground_color = "#f8f8f2"
+    palette = "#000000:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#bbbbbb:#555555:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#ffffff"
+  [[Monokai Remastered]]
+    background_color = "#0c0c0c"
+    cursor_color = "#fc971f"
+    foreground_color = "#d9d9d9"
+    palette = "#1a1a1a:#f4005f:#98e024:#fd971f:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
+  [[MaterialDark]]
+    background_color = "#232322"
+    cursor_color = "#16afca"
+    foreground_color = "#e5e5e5"
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+  [[Monokai Soda]]
+    background_color = "#1a1a1a"
+    cursor_color = "#f6f7ec"
+    foreground_color = "#c4c5b5"
+    palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
+  [[Monokai Vivid]]
+    background_color = "#121212"
+    cursor_color = "#fb0007"
+    foreground_color = "#f9f9f9"
+    palette = "#121212:#fa2934:#98e123:#fff30a:#0443ff:#f800f8:#01b6ed:#ffffff:#838383:#f6669d:#b1e05f:#fff26d:#0443ff:#f200f6:#51ceff:#ffffff"
+  [[3024 Day]]
+    background_color = "#f7f7f7"
+    cursor_color = "#4a4543"
+    foreground_color = "#4a4543"
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+  [[3024 Night]]
+    background_color = "#090300"
+    cursor_color = "#a5a2a2"
+    foreground_color = "#a5a2a2"
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+  [[AdventureTime]]
+    background_color = "#1f1d45"
+    cursor_color = "#efbf38"
+    foreground_color = "#f8dcc0"
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+  [[Argonaut]]
+    background_color = "#0e1019"
+    cursor_color = "#ff0018"
+    foreground_color = "#fffaf4"
+    palette = "#232323:#ff000f:#8ce10b:#ffb900:#008df8:#6d43a6:#00d8eb:#ffffff:#444444:#ff2740:#abe15b:#ffd242:#0092ff:#9a5feb:#67fff0:#ffffff"
+  [[Atom]]
+    background_color = "#161719"
+    cursor_color = "#d0d0d0"
+    foreground_color = "#c5c8c6"
+    palette = "#000000:#fd5ff1:#87c38a:#ffd7b1:#85befd:#b9b6fc:#85befd:#e0e0e0:#000000:#fd5ff1:#94fa36:#f5ffa8:#96cbfe:#b9b6fc:#85befd:#e0e0e0"
+  [[ayu]]
+    background_color = "#0f1419"
+    cursor_color = "#f29718"
+    foreground_color = "#e6e1cf"
+    palette = "#000000:#ff3333:#b8cc52:#e7c547:#36a3d9:#f07178:#95e6cb:#ffffff:#323232:#ff6565:#eafe84:#fff779:#68d5ff:#ffa3aa:#c7fffd:#ffffff"
+  [[Dracula]]
+    background_color = "#1e1f29"
+    cursor_color = "#bbbbbb"
+    foreground_color = "#f8f8f2"
+    palette = "#000000:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#bbbbbb:#555555:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#ffffff"
+  [[Elementary]]
+    background_color = "#181818"
+    cursor_color = "#bbbbbb"
+    foreground_color = "#efefef"
+    palette = "#242424:#d71c15:#5aa513:#fdb40c:#063b8c:#e40038:#2595e1:#efefef:#4b4b4b:#fc1c18:#6bc219:#fec80e:#0955ff:#fb0050:#3ea8fc:#8c00ec"
+  [[FirefoxDev]]
+    background_color = "#0e1011"
+    cursor_color = "#708284"
+    foreground_color = "#7c8fa4"
+    palette = "#002831:#e63853:#5eb83c:#a57706:#359ddf:#d75cff:#4b73a2:#dcdcdc:#001e27:#e1003f:#1d9000:#cd9409:#006fc0:#a200da:#005794:#e2e2e2"
+  [[Flat]]
+    background_color = "#002240"
+    cursor_color = "#e5be0c"
+    foreground_color = "#2cc55d"
+    palette = "#222d3f:#a82320:#32a548:#e58d11:#3167ac:#781aa0:#2c9370:#b0b6ba:#212c3c:#d4312e:#2d9440:#e5be0c:#3c7dd2:#8230a7:#35b387:#e7eced"
+  [[Homebrew]]
+    cursor_color = "#23ff18"
+    foreground_color = "#00ff00"
+    palette = "#000000:#990000:#00a600:#999900:#0000b2:#b200b2:#00a6b2:#bfbfbf:#666666:#e50000:#00d900:#e5e500:#0000ff:#e500e5:#00e5e5:#e5e5e5"
+  [[Material]]
+    background_color = "#eaeaea"
+    cursor_color = "#16afca"
+    foreground_color = "#232322"
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+  [[midnight-in-mojave]]
+    background_color = "#1e1e1e"
+    cursor_color = "#32d74b"
+    foreground_color = "#ffffff"
+    palette = "#1e1e1e:#ff453a:#32d74b:#ffd60a:#0a84ff:#bf5af2:#5ac8fa:#ffffff:#1e1e1e:#ff453a:#32d74b:#ffd60a:#0a84ff:#bf5af2:#5ac8fa:#ffffff"
+  [[Molokai]]
+    background_color = "#121212"
+    cursor_color = "#bbbbbb"
+    foreground_color = "#bbbbbb"
+    palette = "#121212:#fa2573:#98e123:#dfd460:#1080d0:#8700ff:#43a8d0:#bbbbbb:#555555:#f6669d:#b1e05f:#fff26d:#00afff:#af87ff:#51ceff:#ffffff"
+  [[Neutron]]
+    background_color = "#1c1e22"
+    cursor_color = "#f6f7ec"
+    foreground_color = "#e6e8ef"
+    palette = "#23252b:#b54036:#5ab977:#deb566:#6a7c93:#a4799d:#3f94a8:#e6e8ef:#23252b:#b54036:#5ab977:#deb566:#6a7c93:#a4799d:#3f94a8:#ebedf2"
+  [[Novel]]
+    background_color = "#dfdbc3"
+    cursor_color = "#73635a"
+    foreground_color = "#3b2322"
+    palette = "#000000:#cc0000:#009600:#d06b00:#0000cc:#cc00cc:#0087cc:#cccccc:#808080:#cc0000:#009600:#d06b00:#0000cc:#cc00cc:#0087cc:#ffffff"
+  [[Obsidian]]
+    background_color = "#283033"
+    cursor_color = "#c0cad0"
+    foreground_color = "#cdcdcd"
+    palette = "#000000:#a60001:#00bb00:#fecd22:#3a9bdb:#bb00bb:#00bbbb:#bbbbbb:#555555:#ff0003:#93c863:#fef874:#a1d7ff:#ff55ff:#55ffff:#ffffff"
+  [[Pro]]
+    cursor_color = "#4d4d4d"
+    foreground_color = "#f2f2f2"
+    palette = "#000000:#990000:#00a600:#999900:#2009db:#b200b2:#00a6b2:#bfbfbf:#666666:#e50000:#00d900:#e5e500:#0000ff:#e500e5:#00e5e5:#e5e5e5"
+  [[Sakura]]
+    background_color = "#18131e"
+    cursor_color = "#ff65fd"
+    foreground_color = "#dd7bdc"
+    palette = "#000000:#d52370:#41af1a:#bc7053:#6964ab:#c71fbf:#939393:#998eac:#786d69:#f41d99:#22e529:#f59574:#9892f1:#e90cdd:#eeeeee:#cbb6ff"
+  [[Square]]
+    background_color = "#1a1a1a"
+    cursor_color = "#fcfbcc"
+    foreground_color = "#acacab"
+    palette = "#050505:#e9897c:#b6377d:#ecebbe:#a9cdeb:#75507b:#c9caec:#f2f2f2:#141414:#f99286:#c3f786:#fcfbcc:#b6defb:#ad7fa8:#d7d9fc:#e2e2e2"
+  [[Subliminal]]
+    background_color = "#282c35"
+    cursor_color = "#c7c7c7"
+    foreground_color = "#d4d4d4"
+    palette = "#7f7f7f:#e15a60:#a9cfa4:#ffe2a9:#6699cc:#f1a5ab:#5fb3b3:#d4d4d4:#7f7f7f:#e15a60:#a9cfa4:#ffe2a9:#6699cc:#f1a5ab:#5fb3b3:#d4d4d4"
+  [[Symfonic]]
+    cursor_color = "#dc322f"
+    foreground_color = "#ffffff"
+    palette = "#000000:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff:#1b1d21:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff"
+  [[Vaughn]]
+    background_color = "#25234f"
+    cursor_color = "#ff5555"
+    foreground_color = "#dcdccc"
+    palette = "#25234f:#705050:#60b48a:#dfaf8f:#5555ff:#f08cc3:#8cd0d3:#709080:#709080:#dca3a3:#60b48a:#f0dfaf:#5555ff:#ec93d3:#93e0e3:#ffffff"
+  [[Whimsy]]
+    background_color = "#29283b"
+    cursor_color = "#b3b0d6"
+    foreground_color = "#b3b0d6"
+    palette = "#535178:#ef6487:#5eca89:#fdd877:#65aef7:#aa7ff0:#43c1be:#ffffff:#535178:#ef6487:#5eca89:#fdd877:#65aef7:#aa7ff0:#43c1be:#ffffff"
+  [[Zenburn]]
+    background_color = "#3f3f3f"
+    cursor_color = "#73635a"
+    foreground_color = "#dcdccc"
+    palette = "#4d4d4d:#705050:#60b48a:#f0dfaf:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#e0cf9f:#94bff3:#ec93d3:#93e0e3:#ffffff"
+  [[Ubuntu]]
+    background_color = "#300a24"
+    cursor_color = "#aaaaaa"
+    font = Roboto Mono for Powerline 12
+    foreground_color = "#ffffff"
+    scrollback_lines = 1500
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
