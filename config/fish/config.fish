@@ -38,6 +38,7 @@ abbr -a grs git rebase --skip
 abbr -a gst git status -bs
 abbr -a gpu git pull
 abbr -a gpr git pull --rebase
+abbr -a grm "git fetch; and git rebase origin/master"
 
 abbr -a sctl systemctl
 abbr -a jctl journalctl -b -u
@@ -58,4 +59,3 @@ end
 if test -e ~/.config/fish/config.fish.local
   source ~/.config/fish/config.fish.local
 end
-
