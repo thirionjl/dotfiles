@@ -17,3 +17,18 @@
 # Get Terminator color schemes
 `cd ~/Downloads`
 `git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git`
+
+
+
+## Oh My Fish!
+
+Install oh-my-fish 
+
+`omf install fish-spec`
+
+`omf install vcs`
+
+`omf install z`
+
+`omf theme agnoster`
+

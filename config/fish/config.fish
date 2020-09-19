@@ -1,5 +1,6 @@
 set --erase fish_greeting
 
+alias j z
 
 abbr -a hd /usr/bin/head -n 20
 abbr -a search grep -i -R --color
@@ -30,7 +31,6 @@ abbr -a gdi git diff
 abbr -a gfe git fetch
 abbr -a gls git ls
 abbr -a gll git ll
-abbr -a gpo git push origin
 abbr -a gra git rebase --abort
 abbr -a grc git rebase --continue
 abbr -a gri git rebase -i
@@ -39,6 +39,7 @@ abbr -a gst git status -bs
 abbr -a gpu git pull
 abbr -a gpr git pull --rebase
 abbr -a grm "git fetch; and git rebase origin/master"
+abbr -a gpo "git push --set-upstream origin (git_current_branch)"
 
 abbr -a sctl systemctl
 abbr -a jctl journalctl -b -u
