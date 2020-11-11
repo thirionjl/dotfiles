@@ -40,6 +40,7 @@ abbr -a gpu git pull
 abbr -a gpr git pull --rebase
 abbr -a grm "git fetch; and git rebase origin/master"
 abbr -a gpo "git push --set-upstream origin (git_current_branch)"
+abbr -a gpf git push -f
 
 abbr -a sctl systemctl
 abbr -a jctl journalctl -b -u
