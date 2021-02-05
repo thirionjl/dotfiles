@@ -120,7 +120,7 @@
 [core]
     autocrlf = input
     excludesfile = ~/.gitignore
-    symlinks = false
+    symlinks = true
 
 [diff]
 	tool = bc4
